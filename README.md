@@ -1,69 +1,70 @@
-### 🧑‍💻> ABOUT ME ...
+<!-- BANNER SUPERIOR -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0052D4,50:4364F7,100:6FB1FC&height=200&section=header&text=Luiz%20Miguel&fontSize=50&fontColor=ffffff&animation=fadeIn" alt="Header Luiz Miguel" width="100%" />
+</div>
 
-Hello! I'm **Luiz Miguel**, an Information Systems student at the **Center of Informatics (CIn - UFPE)** and a Full-Stack Developer driven by creating pragmatic software that solves everyday problems.
+<br />
 
-My core workflow revolves around modern web development using **JavaScript, React, Node.js, and Python**, alongside **Docker** for containerization and efficient deployments. Beyond full-stack engineering, I have a strong interest in **Cybersecurity (Sec)**, always aiming to incorporate security best practices, clean architecture, and reliable system design into my applications.
 
----
+### ABOUT ME ... 
 
-## 🌐 Where to find me
+Hello, people! My name is Luiz Miguel, I'm a student at the Center of Informatics (CIn - UFPE) in my 3rd semester of Information Systems, focused on Full-Stack Development and a Cybersecurity enthusiast.
 
-<p align="left">
-  <a href="https://github.com/oliveiraluizmiguel57-blip" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-oliveiraluizmiguel57-181717?style=for-the-badge&logo=github" alt="GitHub Profile" />
-</a>
+Driven by curiosity and a desire to build software that solves real-world daily problems, I develop projects using C++, React, Node.js, Python, and Docker. Always learning clean architecture and web security concepts to deliver secure and scalable applications.
+
+
+
+<div align="center">
+  <img src="https://github.com/oliveiraluizmiguel57-blip/oliveiraluizmiguel57-blip/blob/main/Captura%20de%20tela%202026-08-07%20185113.png?raw=true" alt="GitHub Stats" width="100%" />
+</div>
+
+<br />
+
+<div align="center">
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="45" height="45" alt="Docker" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" height="45" alt="Python" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="45" height="45" alt="C++" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45" height="45" alt="JavaScript" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="45" height="45" alt="React" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45" alt="Git" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" width="45" height="45" alt="Jira" />
+</div>
+
+<br />
+
+
+<h2 align="center">💻 Projetos em Destaque</h2>
+
+<div align="center">
+  <!-- Projeto 1 -->
+  <a href="https://github.com/emfs2-byte/EDOO_Project">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=emfs2-byte&repo=EDOO_Project&theme=tokyonight&border_color=0052D4" width="48%" />
   </a>
-  <a href="https://instagram.com/lzmig.user">
-    <img src="https://img.shields.io/badge/Instagram-@lzmig.user-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  
+  <!-- Projeto 2 -->
+  <a href="https://github.com/emfs2-byte/D.S-Project">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=emfs2-byte&repo=D.S-Project&theme=tokyonight&border_color=0052D4" width="48%" />
   </a>
- 
+</div>
+
+<br />
+
+<!-- BOTÕES DE CONTATO (Laranjas no estilo For-the-badge) -->
+<p align="center">
+  <a href="https://linkedin.com/in/seu-perfil" target="_blank">
+    <img src="https://img.shields.io/badge/Linkedin-0052D4?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:seu-email@cin.ufpe.br">
+    <img src="https://img.shields.io/badge/Email-0052D4?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/oliveiraluizmiguel57-blip">
+    <img src="https://img.shields.io/badge/Portal-0052D4?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 </p>
-
----
-
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-![JavaScript](https://img.shields.io/badge/JavaScript-FFD43B?style=for-the-badge&logo=javascript&logoColor=000)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![Tailwind](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white)
-
-
-### Backend
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-
-
-### DevOps & Tools
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma)
-![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-
-### Testing
-
-![Vitest](https://img.shields.io/badge/-Vitest-252529?style=for-the-badge&logo=vitest&logoColor=FCC72B)
-
----
-
-## 📊 GitHub Stats
-
-<p align="left">
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=oliveiraluizmiguel57-blip&show_icons=true&theme=tokyonight&count_private=true" />
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=oliveiraluizmiguel57-blip&layout=compact&theme=tokyonight" />
-</p>
-
----
-
-
-⭐ If you like my work, consider starring a repository  
-🤝 Always open to collaborations, partnerships, and cool ideas
