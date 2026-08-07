@@ -1,6 +1,6 @@
 <!-- BANNER SUPERIOR -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0052D4,50:4364F7,100:6FB1FC&height=200&section=header&text=Luiz%20Miguel&fontSize=50&fontColor=ffffff&animation=fadeIn" alt="Header Luiz Miguel" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0052D4&height=180&section=header&text=Luiz%20Miguel&fontSize=42&fontColor=ffffff&desc=Full-Stack%20Developer%20|%20Cybersecurity%20Enthusiast&descSize=14&descAlignY=70" width="100%" />
 </div>
 
 <br />
@@ -12,9 +12,8 @@ Hello, people! My name is Luiz Miguel, I'm a student at the Center of Informatic
 
 Driven by curiosity and a desire to build software that solves real-world daily problems, I develop projects using C++, React, Node.js, Python, and Docker. Always learning clean architecture and web security concepts to deliver secure and scalable applications.
 
-
 <div align="center">
-  <img src="https://github.com/oliveiraluizmiguel57-blip/oliveiraluizmiguel57-blip/blob/main/Captura%20de%20tela%202026-08-07%20185113.png?raw=true" alt="GitHub Stats" width="450" />
+  <img src="https://github.com/oliveiraluizmiguel57-blip/oliveiraluizmiguel57-blip/blob/main/Captura%20de%20tela%202026-08-07%20201943.png?raw=true" />
 </div>
 
 <br />
@@ -56,13 +55,17 @@ Driven by curiosity and a desire to build software that solves real-world daily 
 
 <!-- BOTÕES DE CONTATO (Laranjas no estilo For-the-badge) -->
 <p align="center">
-  <a href="https://linkedin.com/in/seu-perfil" target="_blank">
+  <a href="" target="_blank">
     <img src="https://img.shields.io/badge/Linkedin-0052D4?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:seu-email@cin.ufpe.br">
+  <a href="mailto:oliveiraluizmiguel57@gmail.com">
     <img src="https://img.shields.io/badge/Email-0052D4?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://github.com/oliveiraluizmiguel57-blip">
     <img src="https://img.shields.io/badge/Portal-0052D4?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=oliveiraluizmiguel57-blip&color=0052d4&style=for-the-badge&label=VISITANTES+NO+PERFIL" alt="Profile Views" />
+</div>
