@@ -1,6 +1,6 @@
 <!-- BANNER SUPERIOR -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0052D4&height=180&section=header&text=Luiz%20Miguel&fontSize=42&fontColor=ffffff&desc=Full-Stack%20Developer%20|%20Cybersecurity%20Enthusiast&descSize=14&descAlignY=70" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0B192C&height=180&section=header&text=Luiz%20Miguel&fontSize=42&fontColor=ffffff&desc=Full-Stack%20Developer%20|%20Cybersecurity%20Enthusiast&descSize=14&descAlignY=70" width="100%" />
 </div>
 
 <br />
