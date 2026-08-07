@@ -13,9 +13,8 @@ Hello, people! My name is Luiz Miguel, I'm a student at the Center of Informatic
 Driven by curiosity and a desire to build software that solves real-world daily problems, I develop projects using C++, React, Node.js, Python, and Docker. Always learning clean architecture and web security concepts to deliver secure and scalable applications.
 
 
-
 <div align="center">
-  <img src="https://github.com/oliveiraluizmiguel57-blip/oliveiraluizmiguel57-blip/blob/main/Captura%20de%20tela%202026-08-07%20185113.png?raw=true" alt="GitHub Stats" width="100%" />
+  <img src="https://github.com/oliveiraluizmiguel57-blip/oliveiraluizmiguel57-blip/blob/main/Captura%20de%20tela%202026-08-07%20185113.png?raw=true" alt="GitHub Stats" width="450" />
 </div>
 
 <br />
@@ -39,18 +38,17 @@ Driven by curiosity and a desire to build software that solves real-world daily 
 
 <br />
 
-
 <h2 align="center">💻 Projetos em Destaque</h2>
 
 <div align="center">
   <!-- Projeto 1 -->
   <a href="https://github.com/emfs2-byte/EDOO_Project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=emfs2-byte&repo=EDOO_Project&theme=tokyonight&border_color=0052D4" width="48%" />
+    <img src="https://img.shields.io/badge/SmartHome.cin-EDOO__Project-0052D4?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  
+  &nbsp;&nbsp;
   <!-- Projeto 2 -->
   <a href="https://github.com/emfs2-byte/D.S-Project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=emfs2-byte&repo=D.S-Project&theme=tokyonight&border_color=0052D4" width="48%" />
+    <img src="https://img.shields.io/badge/CliniDesk-D.S__Project-0052D4?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </div>
 
