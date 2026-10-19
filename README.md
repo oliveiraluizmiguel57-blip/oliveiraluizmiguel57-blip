@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=650&lines=Estudante+de+Sistemas+de+Informa%C3%A7%C3%A3o+%40+CIn-UFPE;Desenvolvedor+Full-Stack+em+forma%C3%A7%C3%A3o;Entusiasta+de+Ciberseguran%C3%A7a;Aberto+a+est%C3%A1gios+em+desenvolvimento" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=650&lines=Estudante+de+Sistemas+de+Informa%C3%A7%C3%A3o+%40+CIn-UFPE;Desenvolvedor+Full-Stack+em+forma%C3%A7%C3%A3o;Entusiasta+de+Ciberseguran%C3%A7a;Engenharia+de+Software+e+Automa%C3%A7%C3%A3o+com+IA;Aberto+a+est%C3%A1gios+em+desenvolvimento" alt="Typing SVG" />
 </div>
 
 <br />
@@ -18,38 +18,9 @@
 
 ## 👋 Sobre mim
 
-Olá, pessoal! Sou **Luiz Miguel**, estudante do **3º semestre de Sistemas de Informação no CIn-UFPE**, com foco em **Desenvolvimento Full-Stack** e entusiasta de **Cibersegurança**.
+Olá, pessoal! Sou **Luiz Miguel**, estudante do **3º semestre de Sistemas de Informação no CIn-UFPE**, com foco em **Desenvolvimento Full-Stack** e entusiasta de **Cibersegurança**, **engenharia de software** e **automação com IA**.
 
 Movido pela curiosidade e pelo desejo de criar software que resolva problemas reais do dia a dia, desenvolvo projetos com **C++, React, Node.js, Python e Docker**. Estou sempre aprendendo sobre arquitetura limpa e segurança web para entregar aplicações seguras e escaláveis.
-
-<br />
-
-## 🌱 Atualmente
-
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <h3>🔨</h3>
-      <b>Construindo</b><br />
-      <sub>CliniDesk<br />React + Node.js</sub>
-    </td>
-    <td align="center" width="25%">
-      <h3>🔐</h3>
-      <b>Estudando</b><br />
-      <sub>Segurança web<br />OWASP Top 10</sub>
-    </td>
-    <td align="center" width="25%">
-      <h3>🧱</h3>
-      <b>Aprofundando</b><br />
-      <sub>Arquitetura limpa<br />e Docker</sub>
-    </td>
-    <td align="center" width="25%">
-      <h3>🔎</h3>
-      <b>Procurando</b><br />
-      <sub>Estágio em<br />Full-Stack</sub>
-    </td>
-  </tr>
-</table>
 
 <br />
 
