@@ -1,9 +1,9 @@
 <h1 align="center">Olá, eu sou o Luiz Miguel 👋</h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SEU_USUARIO_AQUI&color=blueviolet&style=flat-square" alt="Profile views" />
-  <a href="https://github.com/SEU_USUARIO_AQUI?tab=followers">
-    <img src="https://img.shields.io/github/followers/SEU_USUARIO_AQUI?color=blueviolet&style=flat-square&logo=github" alt="Github Followers" />
+  <img src="https://komarev.com/ghpvc/?username=oliveiraluizmiguel57-blip&color=blueviolet&style=flat-square" alt="Profile views" />
+  <a href="https://github.com/oliveiraluizmiguel57-blip?tab=followers">
+    <img src="https://img.shields.io/github/followers/oliveiraluizmiguel57-blip?color=blueviolet&style=flat-square&logo=github" alt="Github Followers" />
   </a>
 </p>
 
@@ -69,12 +69,12 @@
 ## 📊 Estatísticas do GitHub
 
 <p align="center">
-  <img height="180px" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_AQUI&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="180px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_AQUI&layout=compact&theme=tokyonight&langs_count=7" alt="Top Languages" />
+  <img height="180px" src="https://github-readme-stats.vercel.app/api?username=oliveiraluizmiguel57-blip&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img height="180px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oliveiraluizmiguel57-blip&layout=compact&theme=tokyonight&langs_count=7" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SEU_USUARIO_AQUI&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=oliveiraluizmiguel57-blip&theme=tokyonight" alt="GitHub Streak" />
 </p>
 
 <br>
