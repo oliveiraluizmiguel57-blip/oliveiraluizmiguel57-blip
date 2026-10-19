@@ -26,10 +26,30 @@ Movido pela curiosidade e pelo desejo de criar software que resolva problemas re
 
 ## 🌱 Atualmente
 
-- 🔨 Construindo o **CliniDesk** com React e Node.js
-- 🔐 Estudando segurança de aplicações web (OWASP Top 10)
-- 🧱 Aprofundando em arquitetura limpa e Docker
-- 🔎 Buscando estágio em desenvolvimento Full-Stack
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <h3>🔨</h3>
+      <b>Construindo</b><br />
+      <sub>CliniDesk<br />React + Node.js</sub>
+    </td>
+    <td align="center" width="25%">
+      <h3>🔐</h3>
+      <b>Estudando</b><br />
+      <sub>Segurança web<br />OWASP Top 10</sub>
+    </td>
+    <td align="center" width="25%">
+      <h3>🧱</h3>
+      <b>Aprofundando</b><br />
+      <sub>Arquitetura limpa<br />e Docker</sub>
+    </td>
+    <td align="center" width="25%">
+      <h3>🔎</h3>
+      <b>Procurando</b><br />
+      <sub>Estágio em<br />Full-Stack</sub>
+    </td>
+  </tr>
+</table>
 
 <br />
 
