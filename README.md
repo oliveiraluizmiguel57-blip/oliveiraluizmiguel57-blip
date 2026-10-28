@@ -32,28 +32,6 @@ Movido pela curiosidade e pelo desejo de criar software que resolva problemas re
 
 <br />
 
-## 📊 GitHub em números
-
-<div align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/oliveiraluizmiguel57-blip&query=$.public_repos&label=REPOSIT%C3%93RIOS&color=0052D4&style=for-the-badge" alt="Repositórios" />
-  <img src="https://img.shields.io/github/followers/oliveiraluizmiguel57-blip?label=SEGUIDORES&color=0052D4&style=for-the-badge" alt="Seguidores" />
-  <img src="https://img.shields.io/github/stars/oliveiraluizmiguel57-blip?label=STARS&color=0052D4&style=for-the-badge" alt="Stars" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=oliveiraluizmiguel57-blip&theme=dark&hide_border=true&background=0B192C&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" alt="Streak" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://ghchart.rshah.org/0052D4/oliveiraluizmiguel57-blip" alt="Gráfico de contribuições" width="100%" />
-</div>
-
-<br />
-
 ## 💻 Projetos em Destaque
 
 <table>
