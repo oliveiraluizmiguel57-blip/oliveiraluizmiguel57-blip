@@ -1,12 +1,4 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B192C,100:0052D4&height=200&section=header&text=Luiz%20Miguel&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Cybersecurity%20Enthusiast&descSize=16&descAlignY=60" width="100%" alt="Banner" />
-</div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=650&lines=Estudante+de+Sistemas+de+Informa%C3%A7%C3%A3o+%40+CIn-UFPE;Desenvolvedor+Full-Stack+em+forma%C3%A7%C3%A3o;Entusiasta+de+Ciberseguran%C3%A7a;Engenharia+de+Software+e+Automa%C3%A7%C3%A3o+com+IA;Aberto+a+est%C3%A1gios+em+desenvolvimento" alt="Typing SVG" />
-</div>
-
-<br />
 
 <div align="center">
   <img src="https://img.shields.io/badge/CIn--UFPE-0052D4?style=for-the-badge" alt="CIn-UFPE" />
