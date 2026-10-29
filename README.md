@@ -1,30 +1,47 @@
-
-
 <div align="center">
-  <img src="https://img.shields.io/badge/CIn--UFPE-0052D4?style=for-the-badge" alt="CIn-UFPE" />
-  <img src="https://img.shields.io/badge/Recife-PE-0B192C?style=for-the-badge" alt="Recife" />
-  <img src="https://img.shields.io/badge/Aberto%20a%20est%C3%A1gios-22C55E?style=for-the-badge" alt="Aberto a estágios" />
+  <img src="assets/banner.png" alt="Banner em halftone azul" width="100%" />
 </div>
 
 <br />
 
-## 👋 Sobre mim
-
-Olá, pessoal! Sou **Luiz Miguel**, estudante do **3º semestre de Sistemas de Informação no CIn-UFPE**, com foco em **Desenvolvimento Full-Stack** e entusiasta de **Cibersegurança**, **engenharia de software** e **automação com IA**.
-
-Movido pela curiosidade e pelo desejo de criar software que resolva problemas reais do dia a dia, desenvolvo projetos com **C++, React, Node.js, Python e Docker**. Estou sempre aprendendo sobre arquitetura limpa e segurança web para entregar aplicações seguras e escaláveis.
+<table>
+  <tr>
+    <td width="30%" align="center" valign="middle">
+      <img src="assets/earth.svg" alt="Terra em pixel art" width="200" />
+    </td>
+    <td width="70%" valign="middle">
+      <h2>Sobre mim</h2>
+      <p>Oi, eu sou o <b>Luiz Miguel</b>. Estudo Sistemas de Informação no <b>CIn-UFPE</b> (3º semestre) e gosto de construir software que resolve problemas reais do dia a dia.</p>
+      <p>Meu foco é <b>desenvolvimento full-stack</b>, com interesse em <b>cibersegurança</b>, <b>engenharia de software</b> e <b>automação com IA</b>. Trabalho com C++, React, Node.js, Python e Docker, e estou sempre estudando arquitetura limpa e segurança web para entregar aplicações seguras e escaláveis.</p>
+      <p>Estou em busca de <b>estágio</b>.</p>
+    </td>
+  </tr>
+</table>
 
 <br />
 
-## 🛠️ Tecnologias
-
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,js,react,nodejs,docker,git,jira&theme=dark" alt="Tecnologias" />
+  <img src="assets/hello.svg" alt="Cartão em estilo terminal com informações rápidas, status e números do GitHub" width="100%" />
 </div>
 
 <br />
 
-## 💻 Projetos em Destaque
+<h2 align="center">Tecnologias</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-0052D4?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/C++-0052D4?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/JavaScript-0052D4?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-0052D4?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-0052D4?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Docker-0052D4?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-0052D4?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Jira-0052D4?style=for-the-badge&logo=jira&logoColor=white" alt="Jira" />
+</p>
+
+<br />
+
+<h2 align="center">Projetos em destaque</h2>
 
 <table>
   <tr>
@@ -45,7 +62,7 @@ Movido pela curiosidade e pelo desejo de criar software que resolva problemas re
 
 <br />
 
-## 📫 Contato
+<h2 align="center">Contato</h2>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/luiz-miguel-oliveira-">
