@@ -41,31 +41,61 @@ GLYPHS = {
 }
 
 
+def _request(url, token, body=None):
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(body).encode() if body else None,
+        headers={"Authorization": f"bearer {token}", "Content-Type": "application/json",
+                 "Accept": "application/vnd.github+json"},
+    )
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r)
+
+
 def fetch_stats():
     token = os.environ.get("GH_TOKEN")
     if not token:
+        print("GH_TOKEN ausente; números ficam como '-'")
         return {}
+    login = CONFIG["login"]
+
+    # 1) GraphQL: traz tudo, inclusive contribuições
     query = """query($login:String!){user(login:$login){
       followers{totalCount}
       repositories(ownerAffiliations:OWNER,privacy:PUBLIC){totalCount nodes{stargazerCount}}
       contributionsCollection{contributionCalendar{totalContributions}}}}"""
-    req = urllib.request.Request(
-        "https://api.github.com/graphql",
-        data=json.dumps({"query": query, "variables": {"login": CONFIG["login"]}}).encode(),
-        headers={"Authorization": f"bearer {token}", "Content-Type": "application/json"},
-    )
-    with urllib.request.urlopen(req, timeout=30) as r:
-           resp = json.load(r)
-       u = (resp.get("data") or {}).get("user")
-       if not u:
-           print("Erro da API:", resp.get("errors") or resp)
-           return {}
-    return {
-        "repos": u["repositories"]["totalCount"],
-        "stars": sum(n["stargazerCount"] for n in u["repositories"]["nodes"]),
-        "contribuições": u["contributionsCollection"]["contributionCalendar"]["totalContributions"],
-        "seguidores": u["followers"]["totalCount"],
-    }
+    try:
+        resp = _request("https://api.github.com/graphql", token,
+                        {"query": query, "variables": {"login": login}})
+        u = (resp.get("data") or {}).get("user")
+        if u:
+            return {
+                "repos": u["repositories"]["totalCount"],
+                "stars": sum(n["stargazerCount"] for n in u["repositories"]["nodes"]),
+                "contribuições": u["contributionsCollection"]["contributionCalendar"]["totalContributions"],
+                "seguidores": u["followers"]["totalCount"],
+            }
+        print("Erro da API (GraphQL):", resp.get("errors") or resp)
+    except Exception as e:
+        print("GraphQL falhou:", e)
+
+    # 2) Plano B: REST (funciona com o token padrão, mas sem contribuições)
+    try:
+        user = _request(f"https://api.github.com/users/{login}", token)
+        stats = {"repos": user["public_repos"], "seguidores": user["followers"]}
+        stars, page = 0, 1
+        while True:
+            repos = _request(
+                f"https://api.github.com/users/{login}/repos?per_page=100&page={page}&type=owner", token)
+            stars += sum(r["stargazers_count"] for r in repos)
+            if len(repos) < 100:
+                break
+            page += 1
+        stats["stars"] = stars
+        return stats
+    except Exception as e:
+        print("REST falhou:", e)
+        return {}
 
 
 def hello_word(x0, y0, px):
