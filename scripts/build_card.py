@@ -62,7 +62,7 @@ def fetch_stats():
     # 1) GraphQL: traz tudo, inclusive contribuições
     query = """query($login:String!){user(login:$login){
       followers{totalCount}
-      repositories(ownerAffiliations:OWNER,privacy:PUBLIC){totalCount nodes{stargazerCount}}
+      repositories(first:100,ownerAffiliations:OWNER,privacy:PUBLIC){totalCount nodes{stargazerCount}}
       contributionsCollection{contributionCalendar{totalContributions}}}}"""
     try:
         resp = _request("https://api.github.com/graphql", token,
