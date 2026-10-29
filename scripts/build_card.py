@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera assets/hello.svg, o cartão estilo terminal do perfil.
+"""Generates assets/hello.svg, the terminal-style profile card.
 
 Os textos fixos ficam em CONFIG. Os números (repos, stars, contribuições,
 seguidores) vêm da API do GitHub quando GH_TOKEN está definido; sem token
@@ -14,16 +14,16 @@ CONFIG = {
     "login": "oliveiraluizmiguel57-blip",
     "user": "luiz@cin",
     "info": [
-        ("curso", "sistemas de informação"),
-        ("sem", "3º, CIn-UFPE"),
-        ("foco", "full-stack"),
+        ("major", "information systems"),
+        ("term", "3rd semester, CIn-UFPE"),
+        ("focus", "full-stack"),
         ("stack", "c++, react, node"),
-        ("extra", "cibersegurança"),
+        ("extra", "cybersecurity"),
     ],
     "status": [
-        ("estágio", "aberto"),
-        ("local", "recife, pe"),
-        ("estudando", "arquitetura limpa"),
+        ("internship", "open"),
+        ("location", "recife, pe"),
+        ("studying", "clean architecture"),
     ],
     "projects": [("drwxr-xr-x", "SmartHome.cin/"), ("drwxr-xr-x", "CliniDesk/")],
 }
@@ -72,8 +72,8 @@ def fetch_stats():
             return {
                 "repos": u["repositories"]["totalCount"],
                 "stars": sum(n["stargazerCount"] for n in u["repositories"]["nodes"]),
-                "contribuições": u["contributionsCollection"]["contributionCalendar"]["totalContributions"],
-                "seguidores": u["followers"]["totalCount"],
+                "contributions": u["contributionsCollection"]["contributionCalendar"]["totalContributions"],
+                "followers": u["followers"]["totalCount"],
             }
         print("Erro da API (GraphQL):", resp.get("errors") or resp)
     except Exception as e:
@@ -82,7 +82,7 @@ def fetch_stats():
     # 2) Plano B: REST (funciona com o token padrão, mas sem contribuições)
     try:
         user = _request(f"https://api.github.com/users/{login}", token)
-        stats = {"repos": user["public_repos"], "seguidores": user["followers"]}
+        stats = {"repos": user["public_repos"], "followers": user["followers"]}
         stars, page = 0, 1
         while True:
             repos = _request(
@@ -128,7 +128,7 @@ def text(x, y, s, fill=INK, weight="400", size=13, anchor="start"):
 def build():
     stats = fetch_stats()
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" '
-         f'font-family="{MONO}" role="img" aria-label="Cartão de apresentação em estilo terminal">',
+         f'font-family="{MONO}" role="img" aria-label="Terminal-style introduction card">',
          f'<rect width="900" height="500" rx="20" fill="{BG}"/>']
 
     # janela fet.sh: identidade
@@ -146,7 +146,7 @@ def build():
     # janela gh stats: números do GitHub
     o.append(card(520, 36, 344, 196))
     o.append(text(540, 64, "$ gh stats", MUTED, size=12))
-    labels = ["repos", "stars", "contribuições", "seguidores"]
+    labels = ["repos", "stars", "contributions", "followers"]
     for i, k in enumerate(labels):
         yy = 100 + i * 30
         o.append(text(540, yy, k, INK))
@@ -158,7 +158,7 @@ def build():
 
     # janela ls: projetos
     o.append(card(36, 292, 300, 118))
-    o.append(text(56, 320, "~/projetos $ ls -l", MUTED, size=12))
+    o.append(text(56, 320, "~/projects $ ls -l", MUTED, size=12))
     for i, (perm, name) in enumerate(CONFIG["projects"]):
         o.append(text(56, 352 + i * 24, perm, MUTED, size=12))
         o.append(text(160, 352 + i * 24, name, ACCENT, "700"))
@@ -169,13 +169,13 @@ def build():
     for i, (k, v) in enumerate(CONFIG["status"]):
         o.append(text(584, 346 + i * 22, k.rjust(9), MUTED))
         o.append(text(684, 346 + i * 22, "~", MUTED))
-        o.append(text(702, 346 + i * 22, v, INK, "700" if k == "estágio" else "400"))
+        o.append(text(702, 346 + i * 22, v, INK, "700" if k == "internship" else "400"))
 
     # barra inferior
     o.append(f'<rect x="36" y="440" width="828" height="32" rx="10" fill="{CARD}" stroke="{BORDER}"/>')
     o.append(f'<circle cx="58" cy="456" r="4" fill="{ACCENT}"/>')
     o.append(text(72, 461, "luiz miguel", INK, size=12))
-    for k, nav in enumerate(["sobre", "tecnologias", "projetos", "contato"]):
+    for k, nav in enumerate(["about", "tech", "projects", "contact"]):
         o.append(text(330 + [0, 70, 170, 255][k], 461, nav, MUTED, size=12))
     o.append(text(844, 461, "recife, pe", MUTED, size=12, anchor="end"))
     o.append("</svg>")
