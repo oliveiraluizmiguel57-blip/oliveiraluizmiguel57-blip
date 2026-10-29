@@ -55,7 +55,11 @@ def fetch_stats():
         headers={"Authorization": f"bearer {token}", "Content-Type": "application/json"},
     )
     with urllib.request.urlopen(req, timeout=30) as r:
-        u = json.load(r)["data"]["user"]
+           resp = json.load(r)
+       u = (resp.get("data") or {}).get("user")
+       if not u:
+           print("Erro da API:", resp.get("errors") or resp)
+           return {}
     return {
         "repos": u["repositories"]["totalCount"],
         "stars": sum(n["stargazerCount"] for n in u["repositories"]["nodes"]),
