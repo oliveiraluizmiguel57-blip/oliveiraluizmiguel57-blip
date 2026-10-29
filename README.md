@@ -10,10 +10,10 @@
       <img src="assets/earth.svg" alt="Terra em pixel art" width="200" />
     </td>
     <td width="70%" valign="middle">
-      <h2>Sobre mim</h2>
-      <p>Oi, eu sou o <b>Luiz Miguel</b>. Estudo Sistemas de Informação no <b>CIn-UFPE</b> (3º semestre) e gosto de construir software que resolve problemas reais do dia a dia.</p>
-      <p>Meu foco é <b>desenvolvimento full-stack</b>, com interesse em <b>cibersegurança</b>, <b>engenharia de software</b> e <b>automação com IA</b>. Trabalho com C++, React, Node.js, Python e Docker, e estou sempre estudando arquitetura limpa e segurança web para entregar aplicações seguras e escaláveis.</p>
-      <p>Estou em busca de <b>estágio</b>.</p>
+      <h2>About me</h2>
+      <p>Hi, I'm <b>Luiz Miguel</b>. I'm studying Information Systems at <b>CIn-UFPE</b> (3rd semester) and I enjoy building software that solves real, everyday problems.</p>
+      <p>My focus is <b>full-stack development</b>, with an interest in <b>cybersecurity</b>, <b>software engineering</b> and <b>AI automation</b>. I work with C++, React, Node.js, Python and Docker, and I'm always studying clean architecture and web security to deliver secure, scalable applications.</p>
+      <p>I'm looking for an <b>internship</b>.</p>
     </td>
   </tr>
 </table>
