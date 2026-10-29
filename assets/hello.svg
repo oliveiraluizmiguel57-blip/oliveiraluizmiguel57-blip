@@ -28,16 +28,16 @@
 <text x="540" y="64" fill="#5B6B85" font-weight="400" font-size="12" text-anchor="start">$ gh stats</text>
 <text x="540" y="100" fill="#0B192C" font-weight="400" font-size="13" text-anchor="start">repos</text>
 <line x1="540" x2="844" y1="109" y2="109" stroke="#CBD5E6"/>
-<text x="844" y="100" fill="#0052D4" font-weight="700" font-size="15" text-anchor="end">-</text>
+<text x="844" y="100" fill="#0052D4" font-weight="700" font-size="15" text-anchor="end">8</text>
 <text x="540" y="130" fill="#0B192C" font-weight="400" font-size="13" text-anchor="start">stars</text>
 <line x1="540" x2="844" y1="139" y2="139" stroke="#CBD5E6"/>
-<text x="844" y="130" fill="#0052D4" font-weight="700" font-size="15" text-anchor="end">-</text>
+<text x="844" y="130" fill="#0052D4" font-weight="700" font-size="15" text-anchor="end">4</text>
 <text x="540" y="160" fill="#0B192C" font-weight="400" font-size="13" text-anchor="start">contribuições</text>
 <line x1="540" x2="844" y1="169" y2="169" stroke="#CBD5E6"/>
 <text x="844" y="160" fill="#0052D4" font-weight="700" font-size="15" text-anchor="end">-</text>
 <text x="540" y="190" fill="#0B192C" font-weight="400" font-size="13" text-anchor="start">seguidores</text>
 <line x1="540" x2="844" y1="199" y2="199" stroke="#CBD5E6"/>
-<text x="844" y="190" fill="#0052D4" font-weight="700" font-size="15" text-anchor="end">-</text>
+<text x="844" y="190" fill="#0052D4" font-weight="700" font-size="15" text-anchor="end">4</text>
 <path fill="#0B192C" d="M345 270h10v10h-10zM345 280h10v10h-10zM345 290h10v10h-10zM365 290h20v10h-20zM345 300h20v10h-20zM385 300h10v10h-10zM345 310h10v10h-10zM385 310h10v10h-10zM345 320h10v10h-10zM385 320h10v10h-10zM345 330h10v10h-10zM385 330h10v10h-10zM415 290h30v10h-30zM405 300h10v10h-10zM445 300h10v10h-10zM405 310h50v10h-50zM405 320h10v10h-10zM415 330h40v10h-40zM465 270h10v10h-10zM465 280h10v10h-10zM465 290h10v10h-10zM465 300h10v10h-10zM465 310h10v10h-10zM465 320h10v10h-10zM465 330h10v10h-10zM485 270h10v10h-10zM485 280h10v10h-10zM485 290h10v10h-10zM485 300h10v10h-10zM485 310h10v10h-10zM485 320h10v10h-10zM485 330h10v10h-10zM515 290h30v10h-30zM505 300h10v10h-10zM545 300h10v10h-10zM505 310h10v10h-10zM545 310h10v10h-10zM505 320h10v10h-10zM545 320h10v10h-10zM515 330h30v10h-30z"/>
 <rect x="36" y="292" width="300" height="118" rx="12" fill="#F7F9FC" stroke="#CBD5E6"/>
 <text x="56" y="320" fill="#5B6B85" font-weight="400" font-size="12" text-anchor="start">~/projetos $ ls -l</text>
