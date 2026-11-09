@@ -11,7 +11,7 @@
     </td>
     <td width="70%" valign="middle">
       <h2>About me</h2>
-      <p>Hi, I'm <b>Luiz Miguel</b>. I'm studying Information Systems at <b>CIn-UFPE</b> (3rd semester) and I enjoy building software that solves real, everyday problems.</p>
+      <p>Hi, I’m Luiz Miguel and I’m 19 years old</b>. I'm studying Information Systems at <b>CIn-UFPE</b> (3rd semester) and I enjoy building software that solves real, everyday problems.</p>
       <p>My focus is <b>full-stack development</b>, with an interest in <b>cybersecurity</b>, <b>software engineering</b> and <b>AI automation</b>. I work with C++, React, Node.js, Python and Docker, and I'm always studying clean architecture and web security to deliver secure, scalable applications.</p>
       <p>I'm looking for an <b>internship</b>.</p>
     </td>
